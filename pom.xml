@@ -13,11 +13,11 @@
 	</parent>
 
 	<groupId>sc.fiji</groupId>
-	<artifactId>Process_Pixels</artifactId>
+	<artifactId>Vaa3d_Writer</artifactId>
 	<version>1.0.0</version>
 
-	<name>plugins/Process_Pixels.jar</name>
-	<description>A Maven project implementing an ImageJ 1.x plugin</description>
+	<name>plugins/Vaa3d_Writer.jar</name>
+	<description>Plugin to write .v3draw files readable by Vaa3d </description>
 
 	<dependencies>
 		<dependency>
@@ -56,7 +56,7 @@
 					</execution>
 				</executions>
 				<configuration>
-					<mainClass>Process_Pixels</mainClass>
+					<mainClass>Vaa3d_Writer</mainClass>
 				</configuration>
 			</plugin>
 		</plugins>
@@ -64,17 +64,15 @@
 
 	<developers>
 		<developer>
-			<id>dscho</id>
-			<name>Johannes Schindelin</name>
-			<email>johannes.schindelin@gmx.de</email>
-			<url>http://loci.wisc.edu/people/johannes-schindelin</url>
-			<organization>UW-Madison LOCI</organization>
-			<organizationUrl>http://loci.wisc.edu/</organizationUrl>
+			<id>brianl</id>
+			<name>Brian Long</name>
+			<email>brianl@alleninstititue.org</email>
+			<organization>Allen Institute for Brain Science</organization>
+			<organizationUrl>http://alleninstitute.org</organizationUrl>
 			<roles>
-				<role>architect</role>
-				<role>developer</role>
+				<role>scientist</role>
 			</roles>
-			<timezone>-6</timezone>
+			<timezone>-8</timezone>
 		</developer>
 	</developers>
 
@@ -87,10 +85,10 @@
 	</repositories>
 
 	<scm>
-		<connection>scm:git:git://github.com/imagej/minimal-ij1-plugin</connection>
-		<developerConnection>scm:git:git@github.com:imagej/minimal-ij1-plugin</developerConnection>
+		<connection>scm:git:git://github.com/berl/Vaa3d_Writer</connection>
+		<developerConnection>scm:git:git@github.com:berl/Vaa3d_Writer</developerConnection>
 		<tag>HEAD</tag>
-		<url>https://github.com/imagej/minimal-ij1-plugin</url>
+		<url>https://github.com/berl/Vaa3d_Writer</url>
 	</scm>
 
 </project>
