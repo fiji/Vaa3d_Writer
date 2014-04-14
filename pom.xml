@@ -84,6 +84,11 @@
 		</repository>
 	</repositories>
 
+	<ciManagement>
+		<system>Jenkins</system>
+		<url>http://jenkins.imagej.net/job/Vaa3d_Writer/</url>
+	</ciManagement>
+
 	<scm>
 		<connection>scm:git:git://github.com/berl/Vaa3d_Writer</connection>
 		<developerConnection>scm:git:git@github.com:berl/Vaa3d_Writer</developerConnection>
