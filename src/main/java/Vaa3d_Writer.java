@@ -1,15 +1,14 @@
 
-import ij.*;
-import ij.process.*;
-import ij.gui.*;
-import ij.plugin.*;
-import ij.plugin.frame.*;
-import ij.io.*;
-import ij.plugin.filter.PlugInFilter;
-import java.awt.*;
-import java.lang.*;
-import java.io.*;
-import java.util.*;
+import ij.IJ;
+import ij.ImagePlus;
+import ij.ImageStack;
+import ij.WindowManager;
+import ij.io.SaveDialog;
+import ij.plugin.PlugIn;
+import ij.process.ColorProcessor;
+
+import java.io.File;
+import java.io.RandomAccessFile;
 //  Brian Long
 //  2014.02.14 Plugin for writing .v3draw files
 //  based on Albert Cardona's web example and previous raw_writer.java plugins included with Vaa3d
