@@ -8,7 +8,7 @@
 	<parent>
 		<groupId>sc.fiji</groupId>
 		<artifactId>pom-fiji</artifactId>
-		<version>2.0.0-SNAPSHOT</version>
+		<version>5.0</version>
 		<relativePath />
 	</parent>
 
@@ -19,46 +19,16 @@
 	<description>Plugin to write .v3draw files readable by Vaa3d </description>
 
 	<dependencies>
+		<!-- ImageJ dependencies -->
 		<dependency>
 			<groupId>net.imagej</groupId>
 			<artifactId>ij</artifactId>
 		</dependency>
 	</dependencies>
 
-	<build>
-		<resources>
-			<resource>
-				<directory>${basedir}/src/main/resources</directory>
-			</resource>
-			<resource>
-				<directory>${project.build.sourceDirectory}</directory>
-			</resource>
-		</resources>
-		<testResources>
-			<testResource>
-				<directory>${basedir}/src/test/resources</directory>
-			</testResource>
-			<testResource>
-				<directory>${project.build.testSourceDirectory}</directory>
-			</testResource>
-		</testResources>
-		<plugins>
-			<plugin>
-				<groupId>org.codehaus.mojo</groupId>
-				<artifactId>exec-maven-plugin</artifactId>
-				<executions>
-					<execution>
-						<goals>
-							<goal>java</goal>
-						</goals>
-					</execution>
-				</executions>
-				<configuration>
-					<mainClass>Vaa3d_Writer</mainClass>
-				</configuration>
-			</plugin>
-		</plugins>
-	</build>
+	<properties>
+		<main-class>Vaa3d_Writer</main-class>
+	</properties>
 
 	<developers>
 		<developer>
