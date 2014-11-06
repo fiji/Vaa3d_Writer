@@ -18,18 +18,6 @@
 	<name>plugins/Vaa3d_Writer.jar</name>
 	<description>Plugin to write .v3draw files readable by Vaa3d </description>
 
-	<dependencies>
-		<!-- ImageJ dependencies -->
-		<dependency>
-			<groupId>net.imagej</groupId>
-			<artifactId>ij</artifactId>
-		</dependency>
-	</dependencies>
-
-	<properties>
-		<main-class>Vaa3d_Writer</main-class>
-	</properties>
-
 	<developers>
 		<developer>
 			<id>brianl</id>
@@ -44,6 +32,21 @@
 		</developer>
 	</developers>
 
+	<scm>
+		<connection>scm:git:git://github.com/berl/Vaa3d_Writer</connection>
+		<developerConnection>scm:git:git@github.com:berl/Vaa3d_Writer</developerConnection>
+		<tag>HEAD</tag>
+		<url>https://github.com/berl/Vaa3d_Writer</url>
+	</scm>
+	<ciManagement>
+		<system>Jenkins</system>
+		<url>http://jenkins.imagej.net/job/Vaa3d_Writer/</url>
+	</ciManagement>
+
+	<properties>
+		<main-class>Vaa3d_Writer</main-class>
+	</properties>
+
 	<repositories>
 		<!-- NB: for project parent -->
 		<repository>
@@ -52,16 +55,12 @@
 		</repository>
 	</repositories>
 
-	<ciManagement>
-		<system>Jenkins</system>
-		<url>http://jenkins.imagej.net/job/Vaa3d_Writer/</url>
-	</ciManagement>
-
-	<scm>
-		<connection>scm:git:git://github.com/berl/Vaa3d_Writer</connection>
-		<developerConnection>scm:git:git@github.com:berl/Vaa3d_Writer</developerConnection>
-		<tag>HEAD</tag>
-		<url>https://github.com/berl/Vaa3d_Writer</url>
-	</scm>
+	<dependencies>
+		<!-- ImageJ dependencies -->
+		<dependency>
+			<groupId>net.imagej</groupId>
+			<artifactId>ij</artifactId>
+		</dependency>
+	</dependencies>
 
 </project>
