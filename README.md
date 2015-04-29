@@ -1,3 +1,5 @@
+![](http://jenkins.imagej.net/job/Vaa3d_Writer/lastBuild/badge/icon)
+
 
 This is a .v3draw writer plugin that allows ImageJ to write .v3draw files readable by [Vaa3D](http://www.vaa3d.org).
 .v3draw format is a minimalist XYZCT format designed to facilitate simple and rapid file I/O in Vaa3d.
