@@ -190,7 +190,7 @@ public class Vaa3d_Writer implements PlugIn {
             }
 
             out.close();
-            IJ.showMessage("file saved");
+            IJ.showStatus("Saved " + path);
 
         } catch (Exception e) {
             IJ.error("Error:" + e.toString());
