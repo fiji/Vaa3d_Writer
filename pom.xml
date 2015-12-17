@@ -35,6 +35,10 @@
 		<tag>HEAD</tag>
 		<url>https://github.com/berl/Vaa3d_Writer</url>
 	</scm>
+	<issueManagement>
+		<system>GitHub Issues</system>
+		<url>https://github.com/berl/Vaa3d_Writer/issues</url>
+	</issueManagement>
 	<ciManagement>
 		<system>Jenkins</system>
 		<url>http://jenkins.imagej.net/job/Vaa3d_Writer/</url>
