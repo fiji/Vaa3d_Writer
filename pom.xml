@@ -19,10 +19,6 @@
 		<developer>
 			<id>berl</id>
 			<name>Brian Long</name>
-			<email>brianl@alleninstititue.org</email>
-			<url>http://www.alleninstitute.org/our-science/brain-science/about/team/staff-profile/brian-long</url>
-			<organization>Allen Institute for Brain Science</organization>
-			<organizationUrl>http://alleninstitute.org</organizationUrl>
 			<roles>
 				<role>founder</role>
 				<role>lead</role>
@@ -30,7 +26,6 @@
 				<role>reviewer</role>
 				<role>support</role>
 			</roles>
-			<timezone>-8</timezone>
 		</developer>
 		<developer>
 			<id>ctrueden</id>
