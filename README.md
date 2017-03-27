@@ -1,4 +1,4 @@
-[![](http://jenkins.imagej.net/job/Vaa3d_Writer/lastBuild/badge/icon)](http://jenkins.imagej.net/job/Vaa3d_Writer/)
+[![](https://travis-ci.org/fiji/Vaa3d_Writer.svg?branch=master)](https://travis-ci.org/fiji/Vaa3d_Writer)
 
 
 This is a .v3draw writer plugin that allows ImageJ to write .v3draw files readable by [Vaa3D](http://www.vaa3d.org).
