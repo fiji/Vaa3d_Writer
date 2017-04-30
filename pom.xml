@@ -11,7 +11,7 @@
 
 	<groupId>sc.fiji</groupId>
 	<artifactId>Vaa3d_Writer</artifactId>
-	<version>1.0.2-SNAPSHOT</version>
+	<version>1.0.3-SNAPSHOT</version>
 
 	<name>Vaa3d Writer</name>
 	<description>Plugin to write .v3draw files readable by Vaa3d.</description>
