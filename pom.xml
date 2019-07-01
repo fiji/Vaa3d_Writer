@@ -11,7 +11,7 @@
 
 	<groupId>sc.fiji</groupId>
 	<artifactId>Vaa3d_Writer</artifactId>
-	<version>1.0.3-SNAPSHOT</version>
+	<version>1.0.3</version>
 
 	<name>Vaa3d Writer</name>
 	<description>Plugin to write .v3draw files readable by Vaa3d.</description>
@@ -73,7 +73,7 @@
 	<scm>
 		<connection>scm:git:git://github.com/fiji/Vaa3d_Writer</connection>
 		<developerConnection>scm:git:git@github.com:fiji/Vaa3d_Writer</developerConnection>
-		<tag>HEAD</tag>
+		<tag>Vaa3d_Writer-1.0.3</tag>
 		<url>https://github.com/fiji/Vaa3d_Writer</url>
 	</scm>
 	<issueManagement>
