@@ -71,14 +71,14 @@
 	</mailingLists>
 
 	<scm>
-		<connection>scm:git:git://github.com/berl/Vaa3d_Writer</connection>
-		<developerConnection>scm:git:git@github.com:berl/Vaa3d_Writer</developerConnection>
+		<connection>scm:git:git://github.com/fiji/Vaa3d_Writer</connection>
+		<developerConnection>scm:git:git@github.com:fiji/Vaa3d_Writer</developerConnection>
 		<tag>HEAD</tag>
-		<url>https://github.com/berl/Vaa3d_Writer</url>
+		<url>https://github.com/fiji/Vaa3d_Writer</url>
 	</scm>
 	<issueManagement>
 		<system>GitHub Issues</system>
-		<url>https://github.com/berl/Vaa3d_Writer/issues</url>
+		<url>https://github.com/fiji/Vaa3d_Writer/issues</url>
 	</issueManagement>
 	<ciManagement>
 		<system>Travis CI</system>
