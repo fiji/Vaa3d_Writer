@@ -1,4 +1,4 @@
-[![](https://travis-ci.org/fiji/Vaa3d_Writer.svg?branch=master)](https://travis-ci.org/fiji/Vaa3d_Writer)
+[![](https://github.com/fiji/Vaa3d_Writer/actions/workflows/build-main.yml/badge.svg)](https://github.com/fiji/Vaa3d_Writer/actions/workflows/build-main.yml)
 
 
 This is a .v3draw writer plugin that allows ImageJ to write .v3draw files readable by [Vaa3D](http://www.vaa3d.org).
